@@ -3,7 +3,13 @@
     "allow": [
       "Bash(dir \"C:\\Users\\华为\\Desktop\\电商AI调研报告\\img\" /b)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: 电商AI应用转型研究报告\n\n- 完整的HTML/CSS/JS可视化报告\n- 包含14个案例研究配图\n- Lucide图标库集成\n- 响应式设计支持移动端\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git config:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
